@@ -6,7 +6,7 @@
 
 '''  git lfs track "filePath"  '''
 
-'''   EITHER git lfs pull  OR  git lfs pull include = "filePath"  '''  
+'''   EITHER git lfs pull  OR  git lfs pull --include = "filePath"  '''  
 
 ''' git gui '''
 
