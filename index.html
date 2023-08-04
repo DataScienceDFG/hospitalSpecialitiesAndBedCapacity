@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel='shortcut icon' href='https://dashops.dfgateway.com/DFLogo.png' />
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <a href="https://sites.google.com/a/dataflowgroup.com/home-page/home" target="_blank" style="position: absolute; top: 10px; left: 10px;">
+        <img src="New DataFlow Logo_1.png" style="width:225px;height:56px">
+    </a>
+    <div class="login-container">
+        <h1>LOGIN</h1>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script> 
+        const userKey = sessionStorage.getItem('userKey'); 
+      </script>
+    <script>
+        
+        function preback(){window.history.forward()};
+        setTimeout('preback()',0);
+        window.onunload = function(){null};
+       
+   </script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+''' Created a repo with files'''
+
+''' git clone {{link}} '''
+
+''' git lfs install '''
+
+'''  git lfs track "filePath"  '''
+
+'''   EITHER git lfs pull  OR  git lfs pull include = "filePath"  '''  
+
+''' git gui '''
+
+''' select the files from left corner and than enter commit message and than commit and than push '''
+
