@@ -10,6 +10,7 @@
     <link rel='shortcut icon' href='https://dashops.dfgateway.com/DFLogo.png' />
     <script src="data.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="csv.js"></script>
     <script>
          function preback(){window.history.forward()};
          setTimeout('preback()',0);
@@ -88,13 +89,13 @@
                         <input class='dropdown' id="user-input">
                         <label style='margin-left: 522px; height: 20px' for="country">Country :</label>
                         <select id="user-country" name="country" class='dropdown' >
-                            <option value="">--SELECT--</option>
+                            <!-- <option value="">--SELECT--</option> -->
                             <option value="Australia">Australia</option>
                             <option value="Bahrain">Bahrain</option>
                             <option value="Bangladesh">Bangladesh</option>
                             <option value="Cuba">Cuba</option>
                             <option value="Egypt">Egypt</option>
-                            <option value="India">India</option>
+                            <option value="India" selected>India</option>
                             <option value="Iraq">Iraq</option>
                             <option value="Jordan">Jordan</option>
                             <option value="Kenya">Kenya</option>
@@ -120,7 +121,7 @@
                     </div>
                 </form>
                 <div>
-                    <table class="table">
+                    <table id ="data-table" class="table">
                         <thead>
                             <tr>
                                 <th scope="col">Hospital</th>
@@ -134,6 +135,7 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <button class="round-button" id="download-csv">Download CSV</button>
                         </tbody>
                     </table>
                 </div>
