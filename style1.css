@@ -59,4 +59,7 @@ button {
 button:hover {
     background-color: coral;
 }
-
+.no-data {
+    font-weight: bold;
+    font-size: larger;
+}
